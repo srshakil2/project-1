@@ -113,6 +113,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
 .midnight-party-text {
   max-width: 50%;
@@ -134,8 +136,7 @@ body {
   margin-top: 33px;
   margin-left: 110px;
 }
-#btn {
-  color: rgba(255, 255, 255, 0.8);
+.midnight-party-text #btn {
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -147,10 +148,6 @@ body {
 .midnight-party-img {
   max-width: 50%;
   min-height: 600px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 .midnight-party-img #img {
   margin-top: 85px;
