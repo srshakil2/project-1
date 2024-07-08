@@ -1,10 +1,14 @@
 /* problem is boro display te gele div gula venge jacche */
 
+* {
+  margin: 0;
+  padding: 0;
+}
 /* holiday containar */
 .holiday-section-continar {
   max-width: 1320px;
   min-height: 986.07px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin-top: 100px;
   margin: 0 auto;
   position: relative;
@@ -58,4 +62,48 @@
   position: absolute;
   top: -40%;
   left: -300%;
+}
+
+/* items set */
+* {
+  margin: 0;
+  padding: 0;
+}
+.items {
+  max-width: 1312px;
+  min-height: 1140px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.protflio #p1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.protflio h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.protflio #p2 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.itemss {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  justify-content: center;
+}
+.item {
+  width: 424px;
+  height: 441.1px;
+  border-radius: 16px;
+  margin: 7px;
 }
